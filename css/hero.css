@@ -1,16 +1,14 @@
 
 .hero{
-    padding: 0 20px;
+    padding: 0 20px 80px;
     background-image: url(../img/hero/Graphic.png);
-    background-position: center center;
+    background-position: center 95%;
 }
 
 .hero_container{
     padding: 40px 20px 0;
     background-color: rgb(29, 29, 29);
     border-radius: 30px;
-
-    margin-bottom: 80px;
 }
 
 .hero_title {
@@ -43,7 +41,6 @@
 .hero_students {
     display: flex;
     flex-direction: column;
-    gap: 4px;
 }
 
 .hero_students-image-list{
@@ -86,7 +83,9 @@
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-bottom: 30px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
 
 .hero_students-text {
@@ -136,7 +135,7 @@
 
 .hero_bg-image-wrapper{
     width: 259px;
-    margin: 30px auto 0px;
+    margin: 0 auto;
 }
 
 .hero_bg-image {

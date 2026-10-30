@@ -1,0 +1,52 @@
+
+.header{
+    padding: 20px;
+    background-image: url(../img/hero/Graphic.png);
+    background-position: center center;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+    width: 100%;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background-color: #121212;
+}
+
+.header-left {}
+
+.header_logo {}
+
+.header_logo-icon {}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header_camera-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    background-color: rgb(29, 29, 29);
+}
+
+.header_burger-btn {
+    width: 32px;
+    height: 22px;
+
+    background-color: transparent;
+}
+
+.icon-burger {}

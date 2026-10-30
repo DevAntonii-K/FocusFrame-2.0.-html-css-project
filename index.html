@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <!-- NORMALIZE STYLES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- MAIN STYLES -->
+     <link rel="stylesheet" href="./css/main.css">
+    <title>FocusFrame 2.0.</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header_container">
+            <div class="header-left">
+                <a href="/index.html" class="header_logo">
+                    <svg width="120" height="16" class="header_logo-icon">
+                        <use href="./img/icons/icons.svg#icon-FocusFrame"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="header_right">
+                <button class="header_camera-btn">
+                    <svg class="" width="16" height="16">
+                        <use href="./img/icons/icons.svg#icon-bi_camera-fill"></use>
+                    </svg>
+                </button>
+                <button class="header_burger-btn">
+                    <svg class="icon-burger" width="32" height="22">
+                        <use href="./img/icons/icons.svg#icon-Nav"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero_container">
+                <h1 class="hero_title">
+                    Discover the magic of <i class="hero_title-italic">photography</i> in our school
+                </h1>
+                <p class="hero_text">
+                    Our photography school offers an unforgettable journey, where you can learn the basics of composition, master
+                    technical
+                    skills, translate your unique ideas.
+                </p>
+                <div class="hero_reviews-subsection">
+                    <div class="hero_students">
+                        <ul class="hero_students-image-list">
+                            <li class="hero_students-item">
+                                <img class="hero_student-img" srcset="./img/hero/student-1.png 1x, ./img/hero/student-1@2x.png 2x"
+                                    src="./img/hero/student-1.png" alt="student avatar">
+                            </li>
+                            <li class="hero_students-item">
+                                <img class="hero_student-img" srcset="./img/hero/student-2.png 1x, ./img/hero/student-2@2x.png 2x"
+                                    src="./img/hero/student-2.png" alt="student avatar">
+                            </li>
+                            <li class="hero_students-item">
+                                <img class="hero_student-img" srcset="./img/hero/student-3.png 1x, ./img/hero/student-3@2x.png 2x"
+                                    src="./img/hero/student-3.png" alt="student avatar">
+                            </li>
+                        </ul>
+                        <div class="hero_students-text-block">
+                            <p class="hero_students-text">Our happy students</p>
+                            <svg width="18" height="9" class="hero_students-arrow-icon">
+                                <use href="./img/icons/icons.svg#icon-Arrow-2-Stroke"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="hero_rating">
+                        <div class="hero_rating-image-block">
+                            <svg class="hero_rating-icon" width="20" height="20">
+                                <use href="./img/icons/icons.svg#icon-hero-star"></use>
+                            </svg>
+                        </div>
+                        <div class="hero_rating-text-block">
+                            <p class="hero_rating-title">Reviews</p>
+                            <p class="hero_rating-score">+1500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_bg-image-wrapper">
+                    <img srcset="./img/hero/hero-bg-mobile.png 1x, ./img/hero/hero-bg-mobile@2x.png 2x"
+                        src="./img/hero/hero-bg-mobile.jpg" alt="a man in glasses with a camera in his hand." class="hero_bg-image">
+                </div>
+            </div>
+        </section>
+        <section class="slogan">
+            <h2 class="slogan_text">Master your photography skills with us!</h2>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.container {}
+
+.registration {}
+
+.section-padding {}
+
+.regist_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 20px;
+}
+
+.regist_accent {
+    color:rgb(190, 166, 158);
+}
+
+.regist_text {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    width: 295px;
+    
+    margin-bottom: 40px;
+}
+
+.regist_form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.regist_inputs-group{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.regist_send-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.regist_input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+    font-size: 14px;
+    line-height: 1.2;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.regist_input::placeholder{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.regist_message{
+    font-size: 14px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.7);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 14px 18px;
+    width: 100%;
+    height: 112px;
+    resize:none;
+}
+
+.regist_message::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.regist_send-btn {
+    width: 100%;
+    
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 12px;
+    padding: 14px 127px;
+}
+
+.privacy-policy_text {
+    font-size: 12px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.privacy-policy_accent{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}

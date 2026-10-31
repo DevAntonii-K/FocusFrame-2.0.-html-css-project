@@ -42,7 +42,9 @@ button {
     margin: 0;
     border: 0;
     cursor: pointer;
+    background-color: transparent;
 }
+
 
 input,
 textarea
@@ -53,6 +55,7 @@ textarea
     border: 0;
     outline: none;
     border: none;
+    background-color: transparent;
 }
 
 img{

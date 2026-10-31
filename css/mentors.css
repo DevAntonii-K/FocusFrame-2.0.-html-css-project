@@ -1,0 +1,58 @@
+.container {}
+
+.mentors_container {}
+
+.mentors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mentors_text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.mentors_title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 40px;
+    align-self: flex-start;
+}
+
+.mentors_accent{
+    color:rgb(190, 166, 158);
+}
+
+.mentors_list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mentors_item {}
+
+.mentors_image{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 16px;
+}
+
+.mentors_mentor-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2
+}
+
+.mentors_desc {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.5);
+}

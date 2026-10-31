@@ -1,0 +1,37 @@
+.about {}
+
+.container {}
+
+.about_container {}
+
+.about_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 40px;
+}
+
+.about_accent{
+    color:rgb(190, 166, 158);
+}
+
+.about_image-wrapper {
+    margin-bottom: 40px;
+}
+
+.about_text-block {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_first-paragrapgh {
+}
+
+.about_second-paragrapgh {}

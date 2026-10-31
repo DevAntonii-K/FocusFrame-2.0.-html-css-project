@@ -55,10 +55,19 @@ textarea
     border: none;
 }
 
+img{
+    display: block;
+    width: 100%
+}
+
 /*  CONTAINER AND OTHER UTILS */
 
 .container{
     max-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.section-padding{
+    padding-bottom: 80px;
 }

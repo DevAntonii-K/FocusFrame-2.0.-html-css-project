@@ -1,0 +1,100 @@
+.container {}
+
+.courses_container {
+    background-color: rgb(18, 18, 18);
+}
+
+.courses {}
+
+.courses_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+
+.courses_text{
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 40px;
+}
+
+.courses_accent {
+    color: rgb(190, 166, 158);
+}
+
+.courses_list {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+/* CARD HOVER EFFECT */
+
+.courses_item {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.courses_item:hover{
+    transform: scale(0.95);
+}
+
+.course_card-arrow-wrapper
+{
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.courses_item:hover .course_card-arrow-wrapper{
+    transform: scale(1.25);
+}
+
+.courses_link {}
+
+.course_card {
+    padding: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+
+.course_card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.course_card-number {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.course_card-arrow-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+
+.course_card-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+
+    margin-bottom: 164px;
+}
+
+.course_card-desc {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.5);
+}

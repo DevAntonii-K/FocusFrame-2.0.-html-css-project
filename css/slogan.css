@@ -1,6 +1,10 @@
 .slogan {
-    height: 72px;
     width: 1000px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.slogan_container{
     padding: 20px 0;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }

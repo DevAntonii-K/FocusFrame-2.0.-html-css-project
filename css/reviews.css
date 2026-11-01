@@ -1,0 +1,78 @@
+.container {}
+
+.reviews {}
+
+.section-padding {}
+
+.reviews_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 40px;
+}
+
+.reviews_card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.reviews_card-header {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.reviews_card-user-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews_user-image {
+    display: block;
+    width: 56px;
+    height: 56px;
+}
+
+.reviews_card-user-info {
+    align-self: flex-end;
+}
+
+.reviews_card-user-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    margin-bottom: 4px;
+}
+
+.reviews_card-user-status {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.user_card_rating {
+    display: flex;
+    gap:6px;
+    margin-left: 68px;
+}
+
+.user_card_rating > li:last-child > .user_card-rating-icon{
+    fill:#414141;
+    stroke: #414141;
+}
+
+.user_card-rating-icon {}
+
+.reviews_card-text-block {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}

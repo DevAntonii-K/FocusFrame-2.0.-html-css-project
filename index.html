@@ -213,7 +213,7 @@
                     </li>
                 </ul>
             </section>
-        </div>
+        </div> 
 
         <!-- MENTORS -->
 
@@ -293,23 +293,136 @@
                             <textarea name="regist_msg" id="regist_msg" placeholder="Message" class="regist_message"></textarea>
                         </label>
                     </div>
-                    <div class="regist_send-group">
-                        <button class="regist_send-btn">Send</button>
-                        <p class="privacy-policy_text">
-                            By clicking on “Send” button, you agree to our <a href="#" class="privacy-policy_accent">Privacy Policy</a>, and allow Promodo to use this
-                            information for marketing
-                            purposes.
-                        </p>
-                    </div>                    
+                    <button type="submit" class="regist_send-btn">Send</button>                 
                 </form>
+                <p class="privacy-policy_text">
+                    By clicking on “Send” button, you agree to our <a href="#" class="privacy-policy_accent">Privacy Policy</a>, and
+                    allow Promodo to use this
+                    information for marketing
+                    purposes.
+                </p>
+            </section>
+        </div>
+
+        <!-- REVIEWS -->
+        
+        <div class="container">
+            <section class="reviews section-padding">
+                <h2 class="reviews_title">Reviews</h2>
+                <article class="reviews_card">
+                    <div class="reviews_card-header">
+                        <div class="reviews_card-user-wrapper">
+                            <img srcset="./img/reviews/reviews-user.png 1x, ./img/reviews/reviews-user@2x.png 2x"
+                                src="./img/reviews/reviews-user.png" alt=" student Abraham Baker" class="reviews_user-image">
+                            <div class="reviews_card-user-info">
+                                <h3 class="reviews_card-user-name">Abraham Baker</h3>
+                                <p class="reviews_card-user-status">Student</p>
+                            </div>
+                        </div>                       
+                        <ul class="user_card_rating">
+                            <li>
+                                <svg width="16" height="16" class="user_card-rating-icon">
+                                    <use href="./img/icons/icons.svg#icon-reviews-star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg width="16" height="16" class="user_card-rating-icon">
+                                    <use href="./img/icons/icons.svg#icon-reviews-star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg width="16" height="16" class="user_card-rating-icon">
+                                    <use href="./img/icons/icons.svg#icon-reviews-star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg width="16" height="16" class="user_card-rating-icon">
+                                    <use href="./img/icons/icons.svg#icon-reviews-star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg width="16" height="16" class="user_card-rating-icon">
+                                    <use href="./img/icons/icons.svg#icon-star-off"></use>
+                                </svg>
+                            </li>                            
+                        </ul>
+                    </div>
+                    <p class="reviews_card-text-block">
+                        I am very pleased that I decided to enroll in photography school. The teachers turned out to be very talented and
+                        experienced professionals who share their knowledge and are dedicated to their work. I was able to expand my skills and
+                        discover my own style.
+                    </p>
+                </article>
             </section>
         </div>
     </main>
 
     <!-- FOOTER -->
 
-    <footer class="footer">
-        <div class="container"></div>
-    </footer>
+    <div class="container footer_container">
+        <footer class="footer">
+            <div class="footer_header">
+                <a href="/index.html" class="footer_logo">
+                    <svg width="120" height="16" class="footer_logo-icon">
+                        <use href="./img/icons/icons.svg#icon-FocusFrame"></use>
+                    </svg>
+                </a>
+                <address class="footer_address">
+                    <a href="tel:+380665438912" class="footer_tel">+38 066 543 8912</a>
+                    <p class="footer_address-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+                </address>
+            </div>           
+            <div class="footer_body">
+                <ul class="footer_social-list">
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Youtube</a>
+                    </li>
+                </ul>
+                <div class="footer_nav">
+                    <ul class="footer_nav-list">
+                        <li class="footer_nav-list-item">
+                            <a href="">About us</a>
+                        </li>
+                        <li class="footer_nav-list-item">
+                            <a href="">Our courses</a>
+                        </li>
+                        <li class="footer_nav-list-item">
+                            <a href="">Our mentors</a>
+                        </li>
+                        <li class="footer_nav-list-item">
+                            <a href="">Reviews</a>
+                        </li>
+                        <li class="footer_nav-list-item">
+                            <a href="">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_footer">
+                <form class="footer_form">
+                    <label>
+                        <input name="footer-email" id="footer-email" type="email" class="footer_email-input" placeholder="Enter your email">
+                    </label>
+                    <button type="submit" class="footer_send-btn">Go</button>
+                </form>
+                <div class="policies-and-copyrights">
+                    <div class="footer_privacy-wrapper">
+                        <a href="#" class="footer_privacy-link">Privacy Policy</a>
+                        <a href="#" class="footer_agreement">Public Offering Agreement</a>
+                    </div>
+                    <div class="footer_copyright-wrapper">
+                        <p class="footer_copyright">2024 Focus Frame
+                            © All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>        
 </body>
 </html>

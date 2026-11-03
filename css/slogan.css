@@ -1,5 +1,5 @@
 .slogan {
-    width: 1000px;
+    width: 100%;
     padding-right: 0;
     padding-left: 0;
 }
@@ -9,6 +9,41 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.slogan_text {
+.marquee_track{
+    display: flex;
+    width: max-content;
+    animation: scrollMarquee 20s linear infinite;
+}
+
+.marquee_text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
     text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.slogan_text-accent{
+    color: rgb(190, 166, 158);
+}
+
+.marquee_container{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ANIMATION */
+
+@keyframes scrollMarquee {
+    0% {
+        transform:translateX(0%);
+    }
+    100% {
+        transform:translateX(-50%)
+    }
+}
+
+.marquee_container:hover .marquee_track {
+    animation-play-state: paused;
 }

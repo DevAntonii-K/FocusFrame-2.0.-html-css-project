@@ -1,12 +1,12 @@
 .footer_container {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    background-image: url(../img/hero/Graphic.png);
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .footer {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-image: url(../img/hero/Graphic.png);    
 }
 
 .footer_header {   
@@ -74,7 +74,8 @@
 }
 
 .footer_email-input {
-    width: 267px;
+    max-width: 267px;
+    width: 100%;    
     background-color: rgb(255, 255, 255);
     color:rgb(18, 18, 18);
     padding: 20px 18px;

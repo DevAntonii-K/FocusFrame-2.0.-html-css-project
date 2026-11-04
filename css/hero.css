@@ -1,14 +1,14 @@
 
 .hero{
-    padding: 40px 20px 0;
-    background-color: rgb(29, 29, 29);
-    border-radius: 30px;
+    background-image: url(../img/hero/Graphic.png);
+    background-position: center 95%;
+    padding: 0 20px 80px;
 }
 
 .hero_container{  
-    background-image: url(../img/hero/Graphic.png);
-    background-position: center 95%;
-    padding-bottom: 80px;
+    padding: 40px 20px 0;
+    background-color: rgb(29, 29, 29);
+    border-radius: 30px;
 }
 
 .hero_title {

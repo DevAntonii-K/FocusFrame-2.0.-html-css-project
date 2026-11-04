@@ -1,5 +1,16 @@
 
 .header{  
+    background-image: url(../img/hero/Graphic.png);
+    background-position: center 0%;
+
+    padding: 20px;
+}
+
+.header_padding{
+    padding: 20px;
+}
+
+.header_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,18 +21,6 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     background-color: #121212;
-}
-
-.header_padding{
-    padding: 20px;
-}
-
-.header_container {
-    background-image: url(../img/hero/Graphic.png);
-    background-position: center 0%;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .header-left {}

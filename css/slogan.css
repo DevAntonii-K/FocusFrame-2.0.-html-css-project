@@ -9,6 +9,12 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+@media(min-width:768px){
+    .slogan_container{
+        padding: 24px 0;
+    }
+}
+
 .marquee_track{
     display: flex;
     width: max-content;

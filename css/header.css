@@ -2,28 +2,72 @@
 .header{  
     background-image: url(../img/hero/Graphic.png);
     background-position: center 0%;
-
-    padding: 20px;
+    padding: 20px 0;
 }
 
-.header_padding{
-    padding: 20px;
+@media(min-width:768px) {
+    .header {
+        padding: 20px 0 40px;
+    }
 }
 
 .header_container {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+@media(min-width:768px){
+    .header_container{
+        display: flex;
+        gap:14px;
+
+        padding: 0 32px;
+        border:none;
+    }
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+@media(min-width:768px){
+    .header_content{
+        gap:14px;
+        border: none;
+        padding: 0;
+    }
+}
+
+.header_nav-wrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 10px 20px;
-    width: 100%;
-
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
-    background-color: #121212;
 }
 
+@media(min-width:768px){
+    .header_nav-wrapper {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 12px;
+        padding: 16px 20px;
+    }
+}
+
+
 .header-left {}
+
+@media(min-width:768px) {
+    .header-left {
+        
+    }
+}
 
 .header_logo {}
 
@@ -47,11 +91,39 @@
     background-color: rgb(29, 29, 29);
 }
 
+@media(min-width:768px) {
+    .header_camera-btn {
+        display: none;
+    }
+}
+
 .header_burger-btn {
     width: 32px;
     height: 22px;
-
     background-color: transparent;
 }
 
 .icon-burger {}
+
+.header_sign-up-btn {
+    display: none;
+    
+}
+
+@media(min-width:768px){
+    .header_sign-up-btn{
+        height: 60px;
+
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: rgb(18, 18, 18);
+        background-color: rgb(255, 255, 255);
+        padding: 16px 58px;
+        white-space: nowrap;
+        border-radius: 12px;
+    }
+    
+}

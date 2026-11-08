@@ -21,27 +21,33 @@
 
     <!-- HEADER -->
 
-    <div class="header">
+    <header class="header">
         <div class="container header_container">
-                <div class="header-left">
-                    <a href="/index.html" class="header_logo">
-                        <svg width="120" height="16" class="header_logo-icon">
-                            <use href="./img/icons/icons.svg#icon-FocusFrame"></use>
-                        </svg>
-                    </a>
+            <div class="header_content">
+                <div class="header_nav-wrapper">
+                    <div class="header-left">
+                        <a href="/index.html" class="header_logo">
+                            <svg width="120" height="16" class="header_logo-icon">
+                                <use href="./img/icons/icons.svg#icon-FocusFrame"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header_right">
+                        <button type="button" class="header_camera-btn">
+                            <svg class="" width="16" height="16">
+                                <use href="./img/icons/icons.svg#icon-bi_camera-fill"></use>
+                            </svg>
+                        </button>
+                        <button type="button" class="header_burger-btn">
+                            <svg class="icon-burger" width="32" height="22">
+                                <use href="./img/icons/icons.svg#icon-Nav"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <div class="header_right">
-                    <button class="header_camera-btn">
-                        <svg class="" width="16" height="16">
-                            <use href="./img/icons/icons.svg#icon-bi_camera-fill"></use>
-                        </svg>
-                    </button>
-                    <button class="header_burger-btn">
-                        <svg class="icon-burger" width="32" height="22">
-                            <use href="./img/icons/icons.svg#icon-Nav"></use>
-                        </svg>
-                    </button>
-                </div>
+                <button type="button" class="header_sign-up-btn">
+                    Sign up
+                </button>
             </div>
         </div>
     </header>
@@ -54,6 +60,7 @@
 
         <section class="hero section-padding">
             <div class="container hero_container">
+                <div class="hero_content">
                     <h1 class="hero_title">
                         Discover the magic of <i class="hero_title-italic">photography</i> in our school
                     </h1>
@@ -66,16 +73,13 @@
                         <div class="hero_students">
                             <ul class="hero_students-image-list">
                                 <li class="hero_students-item">
-                                    <img class="hero_student-img" srcset="./img/hero/student-1.png 1x, ./img/hero/student-1@2x.png 2x"
-                                        src="./img/hero/student-1.png" alt="student avatar">
+                                    <img class="hero_student-img" src="./img/hero/student-1@2x.png" alt="student avatar">
                                 </li>
                                 <li class="hero_students-item">
-                                    <img class="hero_student-img" srcset="./img/hero/student-2.png 1x, ./img/hero/student-2@2x.png 2x"
-                                        src="./img/hero/student-2.png" alt="student avatar">
+                                    <img class="hero_student-img" src="./img/hero/student-2@2x.png" alt="student avatar">
                                 </li>
                                 <li class="hero_students-item">
-                                    <img class="hero_student-img" srcset="./img/hero/student-3.png 1x, ./img/hero/student-3@2x.png 2x"
-                                        src="./img/hero/student-3.png" alt="student avatar">
+                                    <img class="hero_student-img" src="./img/hero/student-3@2x.png" alt="student avatar">
                                 </li>
                             </ul>
                             <a href="#reviews" class="hero_students-text-block">
@@ -98,15 +102,19 @@
                         </div>
                     </div>
                     <div class="hero_bg-image-wrapper">
-                        <img srcset="./img/hero/hero-bg-mobile.png 1x, ./img/hero/hero-bg-mobile@2x.png 2x"
-                            src="./img/hero/hero-bg-mobile.jpg" alt="a man in glasses with a camera in his hand." class="hero_bg-image">
+                        <!-- <img 
+                            srcset="./img/hero/hero-bg-desktop.png 1x, ./img/hero/hero-bg-desktop@2x.png 2x" 
+                            src="./img/hero/hero-bg-mobile.png"
+                            alt="a man in glasses with a camera in his hand." class="hero_bg-image"
+                        > -->
                     </div>
+                </div>
             </div>
         </section>
 
         <!-- SLOGAN -->
 
-        <section class="slogan section-padding">
+        <!-- <section class="slogan section-padding">
             <h2 hidden>Master your photography skills with us!</h2>
             <div class="slogan_container">
                 <div class="marquee_container">
@@ -116,7 +124,7 @@
                     </div>
                 </div>
             </div>           
-        </section>
+        </section> -->
 
         <!-- ABOUT -->
 
@@ -124,8 +132,15 @@
             <div class="container about_container">
                 <h2 class="about_title">About <span class="about_accent">Us</span></h2>
                 <div class="about_image-wrapper">
-                    <img srcset="./img/about/about-us-photo.png 1x, ./img/about/about-us-photo@2x.png 2x"
-                        src="./img/about/about-us-photo.jpg" alt="a camera, floating on a pedestal with it's left corner">
+                    <picture>
+                        <!-- DESKTOP -->
+                        <source media="(min-width:1280px)" srcset="./img/about/about-us-photo-desktop.png 1x, ./img/about/about-us-photo-desktop@2x.png 2x">
+                        <!-- TABLET -->
+                         <source media="(min-width:768px)" srcset="./img/about/about-us-photo-tablet.png 1x, ./img/about/about-us-photo-tablet@2x.png">
+                         <!-- MOBILE DEFAULT -->
+                        <img srcset="./img/about/about-us-photo.png 1x, ./img/about/about-us-photo@2x.png 2x"
+                            src="./img/about/about-us-photo.jpg" alt="a camera, floating on a pedestal with it's left corner">
+                    </picture>                   
                 </div>
                 <div class="about_text-block">
                     <p class="about_first-paragrapgh">
@@ -150,11 +165,14 @@
 
         <section class="courses section-padding">
             <div class="container courses_container">
-                <h2 class="courses_title">Our <span class="courses_accent">Courses</span></h2>
-                <p class="courses_text">
-                    At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of
-                    your experience or skill level, we have courses to suit your needs and goals.
-                </p>
+                <div class="courses_row">
+                    <h2 class="courses_title">Our <span class="courses_accent">Courses</span></h2>
+                    <p class="courses_text">
+                        At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless
+                        of
+                        your experience or skill level, we have courses to suit your needs and goals.
+                    </p>
+                </div>                
                 <ul class="courses_list">
                     <!-- COURSES CARD -->
                     <li class="courses_item">

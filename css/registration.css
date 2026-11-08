@@ -8,6 +8,12 @@
     margin-bottom: 20px;
 }
 
+@media(min-width:768px){
+    .regist_title{
+        font-size: 48px;
+    }
+}
+
 .regist_accent {
     color:rgb(190, 166, 158);
 }
@@ -19,6 +25,12 @@
     width: 295px;
     
     margin-bottom: 40px;
+}
+
+@media(min-width:768px){
+    .regist_text{
+        font-size: 16px;
+    }
 }
 
 .regist_form {
@@ -51,8 +63,16 @@
     color:rgba(255, 255, 255, 0.7);
 }
 
-.regist_input::placeholder{
-    color:rgba(255, 255, 255, 0.7);
+.regist_input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media(min-width:768px){
+    .regist_input{
+        font-size: 16px;
+        padding: 20px 18px;
+        width: 480px;
+    }
 }
 
 .regist_message{
@@ -68,8 +88,16 @@
     resize:none;
 }
 
-.regist_message::placeholder{
+.regist_message::placeholder {
     color: rgba(255, 255, 255, 0.7);
+}
+
+@media(min-width:768px){
+    .regist_message{
+        font-size: 16px;
+        padding: 20px 18px;
+        width: 480px;
+    }
 }
 
 .regist_send-btn {
@@ -81,13 +109,31 @@
     background-color: rgb(255, 255, 255);
 
     border-radius: 12px;
-    padding: 14px 127px;
+    padding: 14px;
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .regist_send-btn{
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 16px;
+        width: 480px;
+    }
 }
 
 .privacy-policy_text {
     font-size: 12px;
     line-height: 1.3;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media(min-width:768px){
+    .privacy-policy_text{
+        font-size: 14px;
+        line-height: 1.2;
+        width: 418px;
+    }
 }
 
 .privacy-policy_accent{
